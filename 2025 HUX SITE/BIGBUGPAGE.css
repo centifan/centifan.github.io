@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    
+    
+    background-image: url("nurple-static-bright.gif")
+}
+
+.topmarquee {
+    
+ color: white;
+    
+    
+}
+
+.BUGMAINBODYRIGHT {
+    
+    border: solid red 1px;
+    
+    height: 10%;
+    width:40%;
+    float:right;
+    background-image: url("greenbackgrnd.gif")
+    
+}
+
+.extrabug {
+    
+    position:absolute;
+    top: 200px;
+    right: 20px;
+    
+    
+}
+
+.bugpic1 {
+    
+    width:30%;
+    height: 40%;
+    border: dotted #DCC14F;
+    
+    
+    
+    
+}
+
+.bugpic2 {
+    
+    width: 500px;
+    height:370px;
+    position:absolute;
+    top: 300px;
+    left:400px;
+    border: dotted #00B98E;
+    
+}
+
+.bugpic3 {
+    
+    width: 30%;
+    height: 430px;
+    border: dotted white;
+    position: absolute;
+    top:300px;
+    right:10px;
+    
+    
+}
+
+.bugpic4 {
+    
+ width: 20%;
+    height: 400px;
+    border: dotted green;
+    position: absolute;
+    top:300px;
+    right:500px; 
+    
+    
+    
+    
+}
+
+.navbarbugs {
+    
+    position: absolute;
+    top: 60px;
+    right: 800px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("greenbackgrnd.gif");
+    border: dotted 1px;
+    border-radius:20px;
+
+    
+    
+    
+    
+}
+
+a:hover {
+    
+    color: gold;
+    
+    
+}
+a {
+    
+   color: antiquewhite; 
+    
+}
+li {
+    
+    color: aqua;
+    
+    
+    
+}
+
+p {
+    
+    color: aliceblue;
+    
+    
+}
+
+h1 {
+    
+    color: antiquewhite;
+    
+    position: absolute;
+    
+    top: 200px;
+    right: 800px;
+    font-size: 50px;
+    
+}
+
+
+.MILLIFACTS {
+    
+color: aqua;
+    
+    background-color: darkolivegreen;
+    
+    width: 20%;
+    
+height: 70%
+    
+}
+
+.pridebug {
+    
+    position:absolute;
+    top: 220px;
+    left: 500px;
+    
+    
+}

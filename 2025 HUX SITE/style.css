@@ -1,0 +1,312 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box; 
+   font-size:16px;
+
+}
+
+img,
+iframe {
+max-width: 100%;
+height: auto;
+/* so that aspect ratio is kept even if height is declared in markup */ 
+border: 0;
+/* this stops a border if the image is inside a link */
+}
+
+/* This is a CSS comment.
+Always comment your work to explain what you're doing */ 
+body {
+font-family: arial, sans-serif;
+    
+}
+
+/*
+background color defaults
+Note that HTML and CSS use American spelling (color not colour). */
+body {
+      background-color: aqua;
+     }
+header {
+       background-image: url("backstar.gif");
+       }
+/* Note that if we want a number of different elements to have the same style, we just comma separate them. */
+header, footer {
+               text-align: center;
+               }
+
+/* TYPOGRAPHY*/
+h1 {
+    font-size:50px;
+    color: #fff; /* white */
+    text-transform: uppercase;
+   } 
+h2 {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif; 
+    text-transform: uppercase;
+    color: khaki;
+   }
+h1,h2,p,li {
+            padding-bottom: 1em; 
+           }
+
+blockquote {
+    
+    color: white;
+}
+p {
+    
+    color: white;
+    
+    
+}
+    
+
+.stopdiv {
+    
+   display: flex;
+    justify-content: center;
+}
+
+
+.item {
+       background-color: #164388;
+       padding:1%;
+       margin:1%; 
+       margin-bottom: 20px; 
+       margin-top: 20px; 
+       border-radius:10px;
+    background-image: url("4sq.gif");
+}
+/* let's bring the width in a little */
+/* check it out - we're responsive without even trying! */ 
+main {
+/* There's rarely any time you should set an explicit width. Always use max-width wherever possible. */
+    background-image: url("aquagalaxy_small.gif");
+     max-width: 60%;
+/* Change the above to width: 1000px and see what happens with responsive */
+     margin-left: auto;
+     margin-right: auto; 
+      }
+
+/* let's talk about nesting */ 
+.item li {
+          margin-left: 25px;
+}
+blockquote {
+text-transform: uppercase; 
+font-style: italic;
+}
+
+
+nav {
+text-align: center;
+}
+nav li {
+display: flex;
+}
+/* nav li a, or nav a ?? */ nav a {
+background: #164388; 
+color: darkgoldenrod;
+padding: 20px; 
+text-decoration: none; 
+border-radius: 5px;
+    font-size: 30px;
+}
+nav a:hover {
+background: orange;
+}
+body {
+
+background-image: url("backstar.gif"); 
+}
+
+.marquee {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  gap: var(--gap);
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid black;
+  background: black;
+  overflow: hidden;
+  position: relative;
+    
+}
+
+.maintitle {
+    
+    text-align: center;
+    
+    
+}
+
+.navigationside {
+    
+    background-color:#111A2A;
+   background-image: url("4sq.gif");
+    
+    opacity: 50%;
+    
+    
+    position:sticky;
+    
+    top: 0;
+    
+    border: solid red 1px;
+    
+    border-radius: 20px;
+    
+    width: 280px;
+    
+    float:left;
+    
+    height: 500px;
+    
+    margin-top: 10px;   
+}
+
+/* BUG BUGS HERE */
+
+.bugcontainer {
+    
+    display: flex;
+    justify-content: center; }
+
+.transpede {
+    
+    opacity: 50%;
+    
+}
+
+.transpede:hover {
+    
+    opacity: 100%;
+}
+
+.beetally {
+    
+    opacity: 50%;   
+}
+
+.beetally:hover {
+    
+    opacity:100%;
+    
+}
+
+.millintersex {
+    
+opacity:50%;
+}
+
+.millintersex:hover {opacity:100%;}
+.containermid {
+    
+    
+    display: flex;
+    align-content: center;
+}
+
+.spinepan {
+    
+    opacity:50%;
+    
+    
+    
+}
+
+.spinepan:hover {
+    
+    opacity:100%
+}
+
+.magpiearo {
+    
+    opacity:50%
+    
+}
+
+.magpiearo:hover {
+    
+    
+    opacity:100%
+    
+}
+
+/* BUGS END*/
+
+.millarge {
+    
+    position: absolute;
+    top:1300px;
+    right: 300px;
+    
+    
+}
+
+.extradiv {
+    
+    width: 60%;
+    
+    height: 200px;
+    
+    background-color: #164388;
+    
+    float: right;
+    
+    border-radius: 20px;
+    
+    border: darkgoldenrod dotted 2px;
+    
+    background-image: url("4sq.gif");
+    
+    
+    
+    
+}
+    
+
+    
+
+
+.splitdiv {
+    
+    float: left;
+    
+    width: 300px;
+    
+    height: 500px;
+    
+    background-color: #164381;
+    
+    border: solid red 1px;
+    
+    margin: 50px;
+    background-image: url("4sq.gif");
+    
+    
+    
+}
+
+    
+.bugoftheday {
+    
+    border: solid yellow;
+    border-radius: 20px;
+    
+}
+
+.bordr {
+    
+    border: solid gold 3px;
+    width: 30%;
+    background-color: darkolivegreen;
+    border-radius: 5px;
+}
+    
+    
+
